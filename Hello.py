@@ -21,10 +21,10 @@ LOGGER = get_logger(__name__)
 def run():
     st.set_page_config(
         page_title="Hello",
-        page_icon="👋",
+        page_icon="✈️",
     )
 
-    st.write("# Welcome to Streamlit! 👋")
+    st.write("# Welcome to Streamlit! ✈️")
 
     conn = st.connection("snowflake")
     conn.cursor().execute('use database FREE_DATASET_GZTSZAS2KH9')
